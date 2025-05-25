@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#luckyTriplet": {
+        "children": [
+            "flex-layout.col#left",
+            "flex-layout.col#fortune",
+            "flex-layout.col#right"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "luckyRow"
+        }
+    },
+    "flex-layout.col#left": {
+        "children": [
+            "info-card#left"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#fortune": {
+        "children": [
+            "info-card#fortune"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#right": {
+        "children": [
+            "info-card#right"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    }
+}

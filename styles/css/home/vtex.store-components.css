@@ -1,0 +1,44 @@
+.infoCardContainer--card {
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid white;
+    align-items: baseline;
+    border-radius: 8px;
+    width: 350px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+}
+
+.infoCardTextContainer--card {
+    padding: 0 2em;
+}
+
+.infoCardImageContainer, .infoCardTextContainer {
+    width: auto;
+}
+
+.infoCardImage {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.infoCardHeadline--card {
+    font-family: sans-serif;
+}
+
+.infoCardCallActionContainer--card {
+    width: 100%;
+}
+
+.infoCardCallActionContainer--card :global(.vtex-button) {
+    color: white;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+
+}
