@@ -1,0 +1,39 @@
+{
+    "info-card#left": {
+        "props": {
+          "imageUrl": "https://exitocol.vtexassets.com/arquivos/ids/27276761/iphone-15-pro-max-256gb-blanco-titanio-reacondicionado-esim.jpg?v=638803261815230000",
+          "headline": "iPhone 15 Pro Max",
+          "callToActionText": "Ver producto",
+          "callToActionUrl": "/vintage-phone/p",
+          "textPosition": "center",
+          "displayMode": "inline",
+          "blockClass": "card"
+
+        }
+      },
+    
+      "info-card#fortune": {
+        "props": {
+          "imageUrl": "https://i.imgur.com/45i1L1m.png",
+          "headline": "¡Descubre tu fortuna!",
+          "callToActionText": "Ir a la galleta 🍪",
+          "callToActionUrl": "/fortune-cookies",
+          "textPosition": "center",
+          "displayMode": "inline",
+          "blockClass": "card"
+        }
+      },
+    
+      "info-card#right": {
+        "props": {
+          "imageUrl": "https://quicktech.in/cdn/shop/files/MBP16M4-Pro3.jpg?v=1730639679&width=1346",
+          "headline": "Apple MacBook Pro 16-Inch | M4 Pro Chip",
+          "callToActionText": "Ver producto",
+          "callToActionUrl": "/retro-radio/p",
+          "textPosition": "center",
+          "displayMode": "inline",
+          "blockClass": "card"
+        }
+      }
+    
+}
